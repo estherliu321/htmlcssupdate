@@ -1,6 +1,151 @@
-p{
-    color: aqua;
+
+.header{
+    display: flex; 
+    height: calc(100vh);
+    background:url(./images/banner.png) center;
+    background-size: cover;
 }
-h1{
-    color: blue;
+.joanne{
+    color: white;
+    margin: auto;
+justify-content: center;
+    align-items: center; 
+    max-width: 304px;
 }
+.text{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight:bold ;
+}
+.text2{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto;
+     font-weight: 400;
+}
+.italic{
+    font-style: italic;
+}
+.mt-32{
+    margin-top: 32px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.mt-56{
+    margin-top: 56px;
+}
+.mb-1{
+    margin-bottom: 40px;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.joanne h1{
+font-size: 80px;
+line-height: 106px;
+font-family: Roboto;
+font-weight: 900;
+margin-bottom: 32px;
+}
+.header li{
+    display: inline-block;
+    margin-right: 16px;
+}
+.header .yt{
+        display: inline-block;
+    margin-right:0px;
+}
+h2{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 84px;
+    font-style: italic;
+}
+h3{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    font-style: italic;
+}
+
+.about{
+    color: black;
+    text-align: center;
+}
+.about img{
+    margin: 40px 0 20px;
+}
+
+.circlelist{
+    margin: 24px auto 0px;
+    border-top: 1px solid #000;
+    padding-top: 28px;
+    line-height: 42px;
+    max-width: 384px;
+}
+.circle{
+    display: inline-block;
+    margin-right: 16px;
+    width:22px;height:22px;
+    border-radius:999em;    
+    background-color:#891818;
+}
+.my_brand, .footer{
+    color: white;
+    display: block;
+    background-color:#000000 ;
+}
+.my_brand{
+    padding: 56px 0 160px;
+}
+.my_brand h2{
+    margin-bottom: 12px;
+}
+.photo{
+    margin: 68px auto 0px;  
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.photo img{
+    vertical-align: baseline;
+}
+.photo .item2{
+    display: flex; 
+    justify-content: space-between;
+}
+.item1{
+    justify-content: center;
+}
+.poster{
+    display: flex;
+    margin: 68px auto 96px; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.item2{
+    margin-bottom: 48px;
+}
+.works, .footer, .my_brand{
+    text-align: center;
+}
+.footer{
+    padding: 68px 0 64px;
+    color: white;
+}
+.footer a{
+    color: white;
+text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    position: relative;
+    top: 1px;
+  }
